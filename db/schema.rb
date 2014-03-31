@@ -11,13 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140330002234) do
+ActiveRecord::Schema.define(version: 20140330204723) do
 
   create_table "pins", force: true do |t|
     t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "user_id"
+    t.string   "integer"
   end
+
+  add_index "pins", ["integer"], name: "index_pins_on_integer"
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
