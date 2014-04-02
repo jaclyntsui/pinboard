@@ -1,14 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg: #ecf0f1;
+// $body-bg: red;
 $font-family-sans-serif: 'Lato', Helvetica, Arial, sans-serif;
-$navbar-height: 45px;
-$navbar-default-bg: white;
+$navbar-height: 55px;
+$navbar-default-bg: black;
 $jumbotron-bg: white;
 $brand-primary: #c0392b;
-$navbar-default-link-color: #c0392b;
+$navbar-default-link-color: #FFFFFF;
 
 @import 'bootstrap';
+
+body {
+  background: asset-url("wood_texture.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .center{
 	text-align: center;

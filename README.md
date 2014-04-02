@@ -1,5 +1,5 @@
-# Pinboard
+# Archiboard
 
-This is the pinboard sample application!
+A pinboard for architecturally inspired individuals.
 
-by [Jaclyn Tsui](http://www.jytsui.com)
+by [Jaclyn Tsui](http://www.twitter.com/jaclyntsui)
