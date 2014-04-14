@@ -80,7 +80,7 @@ Pinboard::Application.configure do
 
   #required for Heroku
   #note to set this to your actual host
-  config.action_mailer.default_url_options = { host: 'jt-pinboard.com' }
+  config.action_mailer.default_url_options = { host: 'http://finders.herokuapp.com' }
 
   #Sets paperclip to upload images to amazon s3
   config.paperclip_defaults = {

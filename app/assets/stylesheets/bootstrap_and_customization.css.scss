@@ -11,7 +11,8 @@ $navbar-default-link-color: #FFFFFF;
 @import 'bootstrap';
 
 body {
-  background: asset-url("wood_texture.jpg") no-repeat center center fixed;
+  // background: asset-url("wood_texture.jpg") no-repeat center center fixed;
+  background: #FFFFFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,8 +22,4 @@ body {
 
 .center{
 	text-align: center;
-}
-
-.navbar-brand{
-	font-weight: bold;
 }
